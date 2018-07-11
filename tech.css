@@ -1,0 +1,71 @@
+/* The sidebar menu */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.sidenav {
+    height: 100%; 
+    width: 200px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #e6e6ff; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 0;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    border-top: 2px solid #000080;
+}
+
+.sidenav a:nth-child(2n) {
+    background-color: #ccccff;
+}
+
+.sidenav a {
+    height: 42.5px;
+    line-height: 42.5px;
+    font-size: 20px;
+    color: #6666ff;
+
+}
+
+.sidenav a:hover {
+    color: #000080;
+}
+
+.sidenav h3 {
+    color: #6666ff;
+    text-align: center;
+    font-size: 30px;
+    padding: 0 10px;
+    text-shadow: 1px 1px 1px #000080;
+    height: 80px;
+    line-height: 40px;
+}
+
+#main-doc {
+    margin-left: 210px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+img {
+    width: 400px;
+    border: 2px solid #000080;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+h2 {
+    color: #6666ff;
+    font-weight: 700;
+}
